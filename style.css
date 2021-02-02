@@ -1,0 +1,27 @@
+h1{
+    color:blue
+}
+
+h2{
+    background:lightgrey;
+    color:red;
+    padding: 10px;
+}
+
+.contact{
+    text-align: center;
+    color: black;
+}
+
+.name{
+    font-size: 22px;
+}
+
+img{
+    padding:30px;
+    border:limegreen solid 2px;
+}
+
+ul{
+    font-size: 20px;
+}
