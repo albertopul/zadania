@@ -69,19 +69,26 @@ def search():
         print(item)
    
 def generate_views():
-    sampling = random.sample(main_list,8)
-    for item in sampling:
-        views = item.plays + random.choice(range(1,100))
-    print(f"{item.title} {item.year} played {views} times")
+    movie_count = 8
+    for i in range(movie_count):
+        idx = random.randint(0, len(main_list)-1)
+        main_list[idx].plays = main_list[idx].plays + random.choice(range(1,100))
+    print(f"{main_list[idx].title} {main_list[idx].year} played {main_list[idx].plays} times")
+
+def generate_view(times = 10):
+    for i in range(times):
+        generate_views()
 
 def top_titles():
     print(f"Most viewed movies and series today ({datetime.today().strftime('%Y-%m-%d  %H:%M:%S')})")
     x =  int(input("How many Top movies and series would you like to see? "))
-    for item in main_list:
-        by_plays = (sorted(main_list, key=lambda item: item.plays, reverse=True))
-    
+    by_plays = (sorted(main_list, key=lambda item: item.plays, reverse=True))
     top_list= by_plays[0:x]
-    print(top_list)  
+    for item in top_list:
+        if isinstance(item, Movie) == True:
+            print(f"{item.title} {item.year} played {item.plays} times")
+        if isinstance(item, Series) == True:
+            print(f"{item.title} {item.year} S{item.season}E{item.episode} played {item.plays} times")   
 
 
 movie_one = Movie(title="Pulp Fiction", year="1994", genre="Crime", plays = 0)
@@ -125,6 +132,6 @@ get_series()
 print()
 search()
 print()
-generate_views()
+generate_view()
 print()
 top_titles()
