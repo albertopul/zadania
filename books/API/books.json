@@ -1,0 +1,63 @@
+[
+  {"title": "Harry Potter and the Philosofer's Stone",
+  "author": "J.K Rowling",
+  "year": "1997",
+  "pages": "223",
+  "id": 1},
+
+  {"title": "Harry Potter and the Chamber of Secrets",
+   "author": "J.K Rowling",
+   "year": "1998",
+   "pages": "251",
+   "id": 2},
+
+  {"title": "Harry Potter and the Prisoner of Azkaban",
+   "author": "J.K Rowling",
+   "year": "1999",
+   "pages": "317",
+   "id": 3},
+
+  {"title": "Harry Potter and the Goblet of Fire",
+   "author": "J.K Rowling",
+   "year": "2000",
+   "pages": "636",
+   "id": 4},
+
+  {"title": "Harry Potter and the Order of the Phoenix",
+   "author": "J.K Rowling",
+   "year": "2003",
+   "pages": "766",
+   "id": 5},
+
+  {"title": "Harry Potter and the Half-Blood Prince",
+   "author": "J.K Rowling",
+   "year": "2005",
+   "pages": "607",
+   "id": 6},
+
+  {"title": "Harry Potter and the Deathly Hallows",
+   "author": "J.K Rowling",
+   "year": "2007",
+   "pages": "607",
+   "id": 7},
+
+  {"title": "The Lord of the Rings: The Fellowship of the Ring",
+   "author": "J.R.R. Tolkien",
+   "year": "1954",
+   "pages": "432",
+   "id": 8},
+
+  {"title": "The Lord of the Rings: The Two Towers",
+   "author": "J.R.R. Tolkien",
+   "year": "1954",
+   "pages": "352",
+   "id": 9},
+
+  {"title": "The Lord of the Rings: The Return of the King",
+   "author": "J.R.R. Tolkien",
+   "year": "1955",
+   "pages": "432",
+   "id": 10}
+
+
+  ]
